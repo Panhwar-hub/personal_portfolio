@@ -1,6 +1,9 @@
 import {
   mobile,
   ML,
+  MERN,
+  ML_Web,
+  Portfolio,
   fyp,
   backend,
   creator,
@@ -248,7 +251,7 @@ const projects = [
   {
     name: "3D Demo React Portfolio",
     description:
-      "In this project I developed a 3D portfolio using three JS for developers as a learning project which can be used by individuals to change and use for their portfolio.",
+      "In this project I developed a 3D portfolio using three JS for developers as a learning project which can be used by individuals to change and use for their portfolio. This project shows a basic usage of react JS along with three JS which can be further furnished for personal use. I have made this for learning purpose only.",
     tags: [
       {
         name: "React JS",
@@ -267,8 +270,50 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: fyp,
+    image: Portfolio,
     source_code_link: "https://github.com/Panhwar-hub/demo_porfolio",
+  },
+  {
+    name: "Demo Blog for Machine Learning",
+    description:
+      "In this project, I utilized React JS, a popular JavaScript library for building user interfaces, to create a blog focused on machine learning. React JS's component-based architecture allowed me to efficiently organize and manage the different elements of ML blog.By leveraging React's powerful features, I designed an intuitive and user-friendly interface for my blog",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ML_Web,
+    source_code_link: "https://github.com/Panhwar-hub/demo_ml_blog",
+  },
+  {
+    name: "MERN Excercise",
+    description:
+      "In this project I used MERN technologes as learning purpose. Using MongoDB as my database, I designed and implemented the backend using Node.js and Express.js. I created RESTful API endpoints that allow for CRUD (Create, Read, Update, Delete) operations on my data. These endpoints provide a seamless interface for interacting with the database, enabling the client side to retrieve, store, update, and delete data.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node JS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: MERN,
+    source_code_link: "https://github.com/Panhwar-hub/MERN_Practice",
   },
 ];
 

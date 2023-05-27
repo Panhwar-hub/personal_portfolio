@@ -41,10 +41,14 @@ import tripguide from "./tripguide.png";
 import sentiment from "./sentiment.jpeg";
 import ML from "./ML.jpg";
 import fyp from "./fyp.png";
+import Portfolio from "./Portfolio.jpg";
+import ML_Web from "./ML_Web.png";
+import MERN from "./MERN.png";
 
 export {
   logo,
   Logo_PP,
+  MERN,
   Java_Logo,
   python,
   SK_Learn,
@@ -82,4 +86,6 @@ export {
   fiverr,
   sentiment,
   ML,
+  Portfolio,
+  ML_Web,
 };
