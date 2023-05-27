@@ -245,6 +245,31 @@ const projects = [
     image: fyp,
     source_code_link: "https://github.com/Panhwar-hub/Machine-Learning/blob/main/fyp-final-notebook.ipynb",
   },
+  {
+    name: "3D Demo React Portfolio",
+    description:
+      "In this project I developed a 3D portfolio using three JS for developers as a learning project which can be used by individuals to change and use for their portfolio.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Three JS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: fyp,
+    source_code_link: "https://github.com/Panhwar-hub/demo_porfolio",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
